@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Answer Page</title>
+       <link href='QtnAns.css' rel='stylesheet' type='text/css'>
+       <script src="Myjs.js" type="text/JavaScript"></script>
+    </head>
+     <body>
+           <div class ="boxA">
+           <table>
+              <tr>
+                 <td> Question </td>
+                 <td> <p class = "qtnA"></p>    </td>
+                 <td> <input type = "checkbox" name = "maths" value = "off">Delete Question </td>
+              </tr>
+              <tr>
+                  <form method = "post" action ="">
+                    <table>
+                        <tr>
+                            <td> <textarea name="answer" rows="2" cols="80" class ="ans"></textarea> </td>
+                            <td> <input type="submit" value="POST ANSWER" class="btnA" /></td>
+                        </tr>
+                    </table>
+                 </form>
+              </tr>
+                    <b>ANSWERS</b>
+              <ol>
+               
+                 <tr>  
+                      <td> <li></li> </td>
+                      <td> <p class = "ans1"></p> </td>
+                      <td>    
+                          <form>
+                           <input type = "radio" name = "Answer" value = "Yes"> Accept 
+                           <input type = "radio" name = "Answer" value = "No">  Reject
+                           <br>
+                           <input type = "text" name = "comment"  > add comment
+                           <input type="submit" value="asses"  />
+                        </form>
+                           <br>
+                         comments
+                         <table>
+                             <ul>
+                                 <li>
+                                   <tr>
+                                     <p class = "comment"></p> 
+                                  </tr>
+                             </li>
+                        </ul>
+                        </table>
+                       </td>                
+                </tr>
+            </ol>
+           </table>
+        </div>
+     </body>
+</html>
