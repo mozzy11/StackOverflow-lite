@@ -27,6 +27,22 @@
     if (x == "") {
         alert("Empty Comment .Please Post a comment");
         return false;
-    }
-    
-  }
+    } 
+}
+function  delet(){
+    var checkbox = document.getElementById("chbx");
+   
+       if(checkbox.checked){
+        var retVal = confirm("Do you want to Delete this Question ?");
+               if( retVal == true ){
+                alert("Question Deleted");
+               
+                  return true;
+               }
+               else{
+                  return false;
+
+}
+}
+}
+
