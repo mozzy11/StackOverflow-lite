@@ -4,12 +4,12 @@ app = Flask(__name__)
 
 qtns=[
  {
- 'id':'101',
+ 'id':101,
  'txt':'what is Andela',
  'Poster':'mozzy'
  },
  {
- 'id':'201',
+ 'id':201,
  'txt':'what is a boot camp',
  'Poster':'Arnold'
  }
