@@ -12,7 +12,7 @@ class StackTestCase(unittest.TestCase):
 
 
     def test_add_ans(self):
-        respon = self.client().post( 'questions',data = json.dumps({
+        respon = self.client().post( '/api/v1/questions',data = json.dumps({
             'id': 202,
             'txt': 'is this queston Returned',
             'Poster': 'Arnold'

@@ -3,7 +3,7 @@ from flask import Flask, jsonify,request,abort, Response, json
 # local import
 from instance.config import app_config
 
-# initialize sql-alchemy
+
 
 
 def create_app(config_name):
@@ -24,9 +24,9 @@ def create_app(config_name):
         }
     ]
 
-    # POST An answer
+    # POST A QUESTION
 
-    @app.route('/questions', methods=['POST'])
+    @app.route('/api/v1/questions', methods=['POST'])
     def add_qtn():
 
         request_qtn = request.json
@@ -44,7 +44,7 @@ def create_app(config_name):
             # return response
         else:
             bad_object = {
-                "error": "Invalid book object",
+                "error": "Invalid Qtn",
                 "help_string":
                     "Request format should be {'id': 1,'txt': 'Where is Andela','Poster': 'Seruwu' }"
 
