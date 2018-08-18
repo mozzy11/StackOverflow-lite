@@ -13,7 +13,7 @@ class StackTestCase(unittest.TestCase):
 
 
     def test_add_ans(self):
-        respon = self.client().post( 'questions/101/answers',data = json.dumps({
+        respon = self.client().post( '/api/v1/questions/101/answers',data = json.dumps({
                         "id": 2000,
                         "qtnId": 131,
                         "txt": "A boot Camp is a two weeks training for a new Intake"

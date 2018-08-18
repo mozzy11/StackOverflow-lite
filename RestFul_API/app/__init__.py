@@ -3,7 +3,7 @@ from flask import Flask, jsonify,request,abort, Response, json
 # local import
 from instance.config import app_config
 
-# initialize sql-alchemy
+
 
 
 def create_app(config_name):
@@ -26,7 +26,7 @@ def create_app(config_name):
 
     # POST An answer
 
-    @app.route('/questions/<int:questionId>/answers', methods=['POST'])
+    @app.route('/api/v1/questions/<int:questionId>/answers', methods=['POST'])
     def add_ans(questionId):
 
         request_ans = request.json
@@ -52,7 +52,7 @@ def create_app(config_name):
 
         else:
             bad_object = {
-                "error": "Invalid book object",
+                "error": "Invalid Answer",
                 "help_string":
                     "Request format should be {'id': 1,'txt': ' Andela is good','qtnid': 101 }"
 
