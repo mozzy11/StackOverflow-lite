@@ -25,7 +25,7 @@ def create_app(config_name):
         }
     ]
 
-    @app.route('/questions', methods=['GET'])
+    @app.route('/api/v1/questions', methods=['GET'])
     def get_all_qtns():
         return jsonify({'qtns': qtns})
 

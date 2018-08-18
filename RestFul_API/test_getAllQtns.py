@@ -12,13 +12,13 @@ class StackTestCase(unittest.TestCase):
 
 
     def test_add_ans(self):
-        res = self.client().post('/questions/', data= {
+        res = self.client().post('/api/v1/questions', data= {
                         "id": 2000,
                         "qtnId": 131,
                         "txt": "A boot Camp is a two weeks training for a new Intake"
                     } )
-        self.assertEqual(res.status_code, 404)
-        respon = self.client().get('/questions')
+        self.assertEqual(res.status_code, 405)
+        respon = self.client().get('/api/v1/questions')
         assert respon.status_code == 200
         self.assertIn('what is Andela', str(respon.data))
 
