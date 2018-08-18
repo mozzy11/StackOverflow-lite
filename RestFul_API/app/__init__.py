@@ -37,11 +37,9 @@ def create_app(config_name):
                 'Poster': request_qtn['Poster']
             }
             qtns.append(qtn)
-            response = Response("", 201, mimetype="application/json")
-            response.headers['Location'] = "books/" + str(request_qtn['id'])
             print(qtns)
             return jsonify(qtn)
-            # return response
+
         else:
             bad_object = {
                 "error": "Invalid Qtn",
