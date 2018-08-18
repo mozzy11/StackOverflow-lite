@@ -26,7 +26,7 @@ def create_app(config_name):
         }
     ]
 
-    @app.route('/questions/<int:questionId>', methods=['GET'])
+    @app.route('/api/v1/questions/<int:questionId>', methods=['GET'])
     def get_qtn(questionId):
         qtn = {}
         for item in qtns:
