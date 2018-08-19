@@ -45,6 +45,29 @@ def create_app(config_name):
 
 
 
+
+    # POST A QUESTION
+
+    @app.route('/api/v1/questions', methods=['POST'])
+    def add_qtn():
+
+        request_qtn = request.json
+        if (valid_qtn(request_qtn)):
+            qtn = {
+                'id': request_qtn['id'],
+                'txt': request_qtn['txt'],
+                'Poster': request_qtn['Poster']
+            }
+            qtns.append(qtn)
+            print(qtns)
+            return jsonify(qtn)
+
+        else:
+            bad_object = {
+                "error": "Invalid Qtn",
+                "help_string":
+                    "Request format should be {'id': 1,'txt': 'Where is Andela','Poster': 'Seruwu' }"
+
     # POST An answer
 
     @app.route('/api/v1/questions/<int:questionId>/answers', methods=['POST'])
@@ -77,15 +100,23 @@ def create_app(config_name):
                 "help_string":
                     "Request format should be {'id': 1,'txt': ' Andela is good','qtnid': 101 }"
 
+
             }
             response = Response(json.dumps(bad_object), status=400, mimetype="appliation/json")
             return response
 
+
+    def valid_qtn(qtnObj):
+        if "id" in qtnObj and "txt" in qtnObj and "Poster" in qtnObj:
+
     def valid_ans(ansObj):
         if "id" in ansObj and "txt" in ansObj and "qtnId" in ansObj:
+
             return True
         else:
             return False
+
+
 
     ansz = [
         {
@@ -95,6 +126,9 @@ def create_app(config_name):
         }
 
     ]
+
+
+
 
 
 
