@@ -6,4 +6,4 @@ before_script:
 after_success:
   - coveralls
 script:
-  - pytest  
+  - pytest
