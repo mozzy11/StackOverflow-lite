@@ -6,4 +6,4 @@ before_script:
 after_success:
   - coveralls
 script:
- - py.test --cov-report term-missing --cov app -v
+ - py.test --cov-report term-missing 
