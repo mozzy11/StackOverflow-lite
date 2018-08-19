@@ -6,4 +6,4 @@ before_script:
 after_success:
   - coveralls
 script:
-  - pytest   -v  --with-coverage --cover-package-app
+  - pytest   -v  --with-coverage --cover-package=app
