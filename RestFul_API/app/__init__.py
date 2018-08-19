@@ -11,6 +11,7 @@ def create_app(config_name):
     app.config.from_object(app_config[config_name])
     app.config.from_pyfile('config.py')
 
+    
     qtns = [
         {
             'id': 101,
@@ -23,6 +24,26 @@ def create_app(config_name):
             'Poster': 'Arnold'
         }
     ]
+#GET A QUESTIONS
+
+    @app.route('/api/v1/questions/<int:questionId>', methods=['GET'])
+    def get_qtn(questionId):
+        qtn = {}
+        for item in qtns:
+            if item['id'] == questionId:
+                qtn = {
+                    'id': questionId,
+                    'txt': item['txt'],
+                    'Poster': item['Poster']
+                }
+        return jsonify(qtn)
+
+#GET ALL QUESTIONS
+    @app.route('/api/v1/questions', methods=['GET'])
+    def get_all_qtns():
+        return jsonify({'qtns': qtns})
+
+
 
 
     # POST A QUESTION
@@ -105,6 +126,10 @@ def create_app(config_name):
         }
 
     ]
+
+
+
+
 
 
     return app
