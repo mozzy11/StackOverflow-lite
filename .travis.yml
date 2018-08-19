@@ -6,4 +6,4 @@ before_script:
 after_success:
   - coveralls
 script:
--  nosetests --with-coverage --cover-tests --cover-package=app
+ - pytest   -v --cov app
