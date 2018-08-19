@@ -1,12 +1,12 @@
 import unittest
 import json
-from app import create_app
+from app_PostQtn import create_app
 
 class StackTestCase(unittest.TestCase):
 
 
     def setUp(self):
-        """Define test variables and initialize app."""
+        """Define test variables and initialize app_PostQtn."""
         self.app = create_app(config_name="testing")
         self.client = self.app.test_client
 
