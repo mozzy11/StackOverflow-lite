@@ -6,4 +6,4 @@ before_script:
 after_success:
   - coveralls
 script:
-python -m pytest && coverage run -m pytest && coverage report
+nosetests --with-coverage --cover-tests
