@@ -5,6 +5,8 @@
     if (x == "") {
         alert("Empty Queston .Please Post a question");
         return false;
+    } else {
+        window.location.replace ("answerPage.html");
     }
     
   }

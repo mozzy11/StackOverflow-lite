@@ -2,19 +2,25 @@
 <html>
    <head>
        <title>Answer Page</title>
-       <link href='QtnAns.css' rel='stylesheet' type='text/css'>
-       <script src="Myjs.js" type="text/JavaScript"></script>
+       <link href='ans.css' rel='stylesheet' type='text/css'>
+       <script src="ans.js" type="text/JavaScript"></script>
     </head>
      <body>
+
+           <div class="topnav">
+                 <a  href="../index.html">Home</a>
+                <a  href="UserProfileSummary.html">User Sumarry</a>
+          </div>
            <div class ="boxA">
+
            <table>
               <tr>
-                 <td> Question </td>
+                 <td>  <p><a href="postQuestion.html"><button  class="btn"> POST NEW QUESTION </button></a></p> </td>
                  <td> <p class = "qtnA"></p>    </td>
                  <td> 
                     <form method = "post" name = "delete" onsubmit = "return delet()" action ="">
                        <input type = "checkbox"  value = "on" id = "chbx"> 
-                       <input type="submit" value="Delete Question"  />
+                       <input type="submit" value="Delete question"  class="btnD" />
                     </form> 
                 </td>
               </tr>
@@ -23,7 +29,7 @@
                     <table>
                         <tr>
                             <td> <textarea name="answer" rows="2" cols="80" class ="ans"></textarea> </td>
-                            <td> <input type="submit" value="POST ANSWER" class="btnA" /></td>
+                            <td> <input type="submit" value="POST ANSWER" class="btn" /></td>
                         </tr>
                     </table>
                  </form>
@@ -57,6 +63,9 @@
                 </tr>
             </ol>
            </table>
+
+
         </div>
+
      </body>
 </html>
