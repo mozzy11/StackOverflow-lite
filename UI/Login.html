@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="MyCss.css" rel='stylesheet' type='text/css'>
-<script src="Js.js" type="text/JavaScript"/></script>
+<link href="Login.css" rel='stylesheet' type='text/css'>
+<script src="Login.js" type="text/JavaScript"/></script>
 <title>Login</title>
 </head>
 <body>
+         <div class="topnav">
+         <a  href="../index.html">Home</a>
+          </div>
+    <form name = "LoginForm"  onsubmit="return validateForm()" method="post" action="postQuestion.html">
 
-    <form name = "LoginForm"  onsubmit="return validateForm()" method="post" action="">
         <div class="box">
                 <h1>STACK OVERFLOW-LITE LOGIN</h1>
             <table>  
@@ -30,7 +33,6 @@
           
         </form>
         <p>Have no Account yet? <a href="Signup.html">Click Here To Sign in!</a></p>
-        <p>Forgot your password? <a href="">Click Here!</a></p>
 
 </body>
 </html>
