@@ -7,4 +7,4 @@ after_success:
   - coveralls
 script:
   - nosetests --with-coverage --cover-tests
-  - coverage report
+  
