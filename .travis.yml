@@ -6,5 +6,5 @@ before_script:
 after_success:
   - coveralls
 script:
-  - nosetests --with-coverage --cover-tests
+  - pytest --with-coverage --cover-tests
   - coverage report
