@@ -1,17 +1,14 @@
 [report]
-# Regexes for lines to exclude from consideration
-exclude_lines =
-    pragma: no cover
-
-    # Don't complain about missing debug-only code:
-    def __repr__
-    if self\.debug
-
-    # Don't complain if tests don't hit defensive assertion code:
-    raise AssertionError
-    raise NotImplementedError
-    raise IndexError
-
-    # Don't complain if non-runnable code isn't run:
-    if 0:
-    if __name__ == .__main__.:
+omit =
+    */python?.?/*
+    */site-packages/nose/*
+    */__pycache__/*
+    */.pyc
+    */.pytest_cache/*
+    */RestFul_API/app/python?.?/*
+    */RestFul_API/app/site-packages/nose/*
+    */RestFul_API/app/__pycache__/*
+    */RestFul_API/app/.pyc
+    */RestFul_API/app/.pytest_cache/*
+    */RestFul_API/tests/.pytest_cache/*
+    */.idea/*
