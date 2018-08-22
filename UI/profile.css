@@ -55,3 +55,51 @@ body{
     background-color: #4CAF50;
     color: white;
 }
+
+
+.comtable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.comtable td, .comtable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.comtable tr:nth-child(even){background-color: #f2f2f2;}
+
+.comtable tr:hover {background-color: #ddd;}
+
+.comtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.collap {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    color:#ddd ;
+}
+
+.active, .collap:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
