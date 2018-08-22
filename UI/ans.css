@@ -210,4 +210,106 @@ body{
     color: white;
 }
 
+.split {
+  height: 90%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 65px;
+  bottom:0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
+.left {
+  left: 0;
+  background-color:  black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo {width: 400px;
+  margin-left: 2px; 
+  margin-top: 0px;
+}
+.img2 {width: 500px;
+  margin-left: 300x; 
+  margin-top: 100px;
+  height: 300px;
+}
+
+.sidenav {
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 50;
+  bottom: 50;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.tab {
+  float: right;
+  border: 1px solid #ccc;
+  background-color: black;
+  width: 20%;
+  height: 200px;
+ border-top: 50px;
+}
+
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+
+  border: 1px solid #ccc;
+  height: 500px;
+  display: none;
+  color: #111;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 380px;
+  margin-right: 270px; 
+}
