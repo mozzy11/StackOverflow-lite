@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Answer Page</title>
+       <link href='ans.css' rel='stylesheet' type='text/css'>
+       <script src="ans.js" type="text/JavaScript"></script>
+    </head>
+     <body>
+
+           <div class="topnav">
+                 <a  href="../index.html">Home</a>
+                <a  href="UserProfileSummary.html">USER PROFLE</a>
+                <a  href="Login.html">LOG OUT</a>
+          </div>
+          <div class="vertical-menu">
+                <a href="../index.html" class="active">HOME</a>
+                <a href="postQuestion.html">ADD QUESTON</a>
+                <a href="questions.html">ALL QUESTIONS</a>
+                <a href="questions.html">MY QUESTONS</a>
+                <a href="UserProfileSummary.html">USER PROFILE</a>
+            </div>
+           <div >
+
+               <table>
+                  <tr> 
+                      <td>
+                      <p class = "qtnA"> WHAT happens n a boot camp?</p>    </td>
+                    </td> 
+                     <td>
+                      <form method = "post" name = "delete" onsubmit = "return delet()" action ="">
+                       <input type = "checkbox"  value = "on" id = "chbx"> 
+                       <input type="submit" value="Delete question"  />
+                     </form>
+                   </td> 
+            </tr>
+            </table>
+             
+              <table>
+                  <tr>
+                      <td>
+                          <div class="divans">
+                            <h4> WE learn in a boot camp</h4>
+                                
+                                <div class = "psn" id="addcomment" >
+                                        <form   name ="asses" action = "" onsubmit= "return ValdAsses()">
+                                         <input type = "radio" name = "Answer" value = "Yes"> Upvote 
+                                         <input type = "radio" name = "Answer" value = "No">  Downvote
+                                        
+                                         <input type = "text" name = "comment"  >
+                                         <input type="submit" value="comment"  />
+                                      </form>
+                                </div> 
+
+                                <select class = "psn1"name="cars">
+                                        <option value="volvo">VEW COMMENT</option>
+                                        <option value="saab">woow gud answer</option>
+                                        <option value="fiat">wrong</option>
+                                        <option value="audi">true</option>
+                                </select>
+
+                          </div>
+                      </td>
+                  </tr>
+                  <tr>
+                        <td>
+                                <div class="divans">
+                          <h4>we collaborate in a boot camp</h4>
+                                        <div class = "psn" id="addcomment" >
+                                                <form   name ="asses" action = "" onsubmit= "return ValdAsses()">
+                                                 <input type = "radio" name = "Answer" value = "Yes"> Upvote 
+                                                 <input type = "radio" name = "Answer" value = "No">  Downvote
+                                                
+                                                 <input type = "text" name = "comment"  >
+                                                 <input type="submit" value="comment"  />
+                                              </form>
+                                        </div>
+
+                                        <select class = "psn1"name="cars">
+                                                <option value="volvo">VEW COMMENT</option>
+                                                <option value="saab">woow gud answer</option>
+                                                <option value="fiat">wrong</option>
+                                                <option value="audi">true</option>
+                                        </select>
+
+                                    </div>
+                        </td>
+                    </tr>
+                    <tr>
+                            <td>
+                                    <div class="divans">
+
+                        
+                               <h4>we work on projects in a boot camp </h4>
+                                            <div class = "psn" id="addcomment" >
+                                                    <form   name ="asses" action = "" onsubmit= "return ValdAsses()">
+                                                     <input type = "radio" name = "Answer" value = "Yes"> Upvote 
+                                                     <input type = "radio" name = "Answer" value = "No">  Downvote
+                                                    
+                                                     <input type = "text" name = "comment"  >
+                                                     <input type="submit" value="comment"  />
+                                                  </form>
+                                            </div>
+
+                                            <select class = "psn1"name="cars">
+                                                    <option value="volvo">VEW COMMENT</option>
+                                                    <option value="saab">woow gud answer</option>
+                                                    <option value="fiat">wrong</option>
+                                                    <option value="audi">true</option>
+                                            </select>
+          
+                                         </div>  
+                                        </div>
+                            </td>
+                        </tr>
+      
+              </table>
+            
+                       
+    
+        </div> 
+       
+        <form method = "post"  class = "formA"name = "ans" onsubmit = "return ValidAns()" action ="">
+                <table>
+                    <tr>
+                        <td> <textarea name="answer" rows="3" cols="80" class ="ans"></textarea> </td>
+                        <td> <input type="submit" value="POST ANSWER" class="btnp2" /></td>
+                    </tr>
+                </table>
+        </form>
+       
+     </body>
+</html>
