@@ -47,23 +47,8 @@ function  delet(){
 }
 }
 }
-function showcomments() {
-    var x = document.getElementById("comments");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
 
-function addcomment() {
-    var x = document.getElementById("addcomment");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+
 
 function openCity(evt, Name) {
 
@@ -81,3 +66,6 @@ function openCity(evt, Name) {
     document.getElementById(Name).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+
+
