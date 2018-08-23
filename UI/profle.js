@@ -1,35 +1,19 @@
-function show() {
-    var x = document.getElementById("view");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+function openCity(evt, cityName) {
+   
+    var i, tabcontent, tablinks;
 
-function show1() {
-    var x = document.getElementById("view1");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
     }
-}
 
-function show2() {
-    var x = document.getElementById("view2");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
+ 
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-}
 
-function show3() {
-    var x = document.getElementById("view3");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+   
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
