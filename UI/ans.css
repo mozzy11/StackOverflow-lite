@@ -13,10 +13,16 @@ body{
     text-decoration: none;
     color:#ffffff;
   }
+  h2 {
+    font-family:cursive;
+    font-weight: 2; 
+  }
   
   h1{
     font-size:1.5em;
     color:#fcf8f8;
+    font-family: cursive;
+    font-weight: 2;
   }
   
   .box{
