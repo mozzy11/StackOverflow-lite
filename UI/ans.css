@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    background:#ccc;
+    background:#f2f2f2;
     margin: 0 auto 0 auto;  
     width:100%; 
     text-align:center;
@@ -84,7 +84,7 @@ body{
   }
 
   .qtnA{
-    background: #f2f2f2;
+    background: #ffffff;
     width:800px;
     height :50px;
     border-bottom: #ccc 2px solid;
@@ -93,7 +93,7 @@ body{
     margin-top:10px;
     font-size:20px;
     border-radius:4px;
-    margin-left:150px; 
+    margin-left:200px; 
   }
 
   .ans1{
@@ -211,7 +211,7 @@ body{
 }
 
 .split {
-  height: 90%;
+  height: 88%;
   width: 30%;
   position: fixed;
   z-index: 1;
@@ -225,6 +225,23 @@ body{
   left: 0;
   background-color:  black;
 }
+
+.split2 {
+  height: 88%;
+  width: 14%;
+  position: fixed;
+  z-index: 1;
+  top: 65px;
+  bottom:0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left2 {
+  left: 0;
+  background-color:  black;
+}
+
 
 .centered {
   position: absolute;
@@ -421,7 +438,7 @@ body{
     height: 100px;
     border-bottom: 1px solid lightslategray;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     margin-left: 200px;
     width :700px;
     position: relative;
@@ -450,7 +467,8 @@ body{
       position: absolute;
       left:10px;
       top: 5px;
+      font-weight: 300;
   }
 
-  
+
  
