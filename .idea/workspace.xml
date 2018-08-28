@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec2f6250-5ed0-4594-ada0-508cbb655ed2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Unittests_in_test_Get_A_Qtn_py.coverage" NAME="Unittests in test_Get_A_Qtn.py Coverage Results" MODIFIED="1534622160620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$RestFul_API__1_.coverage" NAME="RestFul_API (1) Coverage Results" MODIFIED="1534503051050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API/src" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$test_add_ans.coverage" NAME="test_add_ans Coverage Results" MODIFIED="1534490195258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Unittests_in_test_PostAnswer_py.coverage" NAME="Unittests in test_PostAnswer.py Coverage Results" MODIFIED="1534622405385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Pytest_PostAns.coverage" NAME="Pytest_PostAns Coverage Results" MODIFIED="1534486289913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Unittests_in_test_add_ans_py.coverage" NAME="Unittests in test_add_ans.py Coverage Results" MODIFIED="1534493711529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Unittests_in_test_3_py.coverage" NAME="Unittests in test_PostAnswer.py Coverage Results" MODIFIED="1534511139164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Unittests_in_test_getAllQtns_py.coverage" NAME="Unittests in test_getAllQtns.py Coverage Results" MODIFIED="1534621926354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Unittests_in_test_app_py.coverage" NAME="Unittests in test_app.py Coverage Results" MODIFIED="1534502709149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API/tests" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$RestFul_API.coverage" NAME="RestFul_API Coverage Results" MODIFIED="1534485812689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+    <SUITE FILE_PATH="coverage/StackOverflow_lite$Unittests_in_test_PostQuestion_py.coverage" NAME="Unittests in test_PostQuestion.py Coverage Results" MODIFIED="1534699622037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RestFul_API" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postQuestion.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UI/postQuestion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/RestFul_API/RestFul_API.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/Pytest_PostAns.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_add_ans.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/src/__init__.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/tests/test_add_ans.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/src/test_app.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/tests/test_app.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/src/RestFul_API.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/config/config.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/config/__init__.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_2.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_app.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_3.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/instance/__init__.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/run.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/instance/config.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_getAllQtns.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_Get_A_Qtn.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/app/__init__.py" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_PostAnswer.py" />
+        <option value="$PROJECT_DIR$/.coverall.yml" />
+        <option value="$PROJECT_DIR$/RestFul_API/test_PostQuestion.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/.coveragerc" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/UI/annswerPage.html" />
+        <option value="$PROJECT_DIR$/UI/ans.js" />
+        <option value="$PROJECT_DIR$/UI/ans.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/UI/Login.css" />
+        <option value="$PROJECT_DIR$/UI/Signup.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/UI/profile.css" />
+        <option value="$PROJECT_DIR$/UI/UserProfileSummary.html" />
+        <option value="$PROJECT_DIR$/UI/answerPage.html" />
+        <option value="$PROJECT_DIR$/UI/Login.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/UI/postQuestion.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="27" />
+    <option name="width" value="1347" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StackOverflow-lite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StackOverflow-lite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StackOverflow-lite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StackOverflow-lite" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StackOverflow-lite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StackOverflow-lite" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../StackOverflow-API" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Andela-Stack-ovelite\StackOverflow-lite\StackOverflow-lite" />
+      <recent name="D:\Andela-Stack-ovelite\StackOverflow-lite\StackOverflow-lite\RestFul_API" />
+      <recent name="D:\Andela-Stack-ovelite\StackOverflow-lite\StackOverflow-lite\RestFul_API\tests" />
+      <recent name="D:\Andela-Stack-ovelite\StackOverflow-lite\StackOverflow-lite\RestFul_API\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_PostQuestion.py">
+    <configuration name="Unittests in test_Get_A_Qtn.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestFul_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StackOverflow-lite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/RestFul_API/test_Get_A_Qtn.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_PostAnswer.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestFul_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StackOverflow-lite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/RestFul_API/test_PostAnswer.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_PostQuestion.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestFul_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StackOverflow-lite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/RestFul_API/test_PostQuestion.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_app.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestFul_API/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StackOverflow-lite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/RestFul_API/test_app.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_getAllQtns.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RestFul_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StackOverflow-lite" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/RestFul_API/test_getAllQtns.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_app.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_PostAnswer.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_getAllQtns.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_Get_A_Qtn.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_PostQuestion.py" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_PostQuestion.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_PostAnswer.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_Get_A_Qtn.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_getAllQtns.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_app.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec2f6250-5ed0-4594-ada0-508cbb655ed2" name="Default" comment="" />
+      <created>1534428904971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534428904971</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_PostQuestion_py - 2018.08.19 at 10h 57m 07s.xml">
+      <configuration name="Unittests in test_PostQuestion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PostQuestion_py - 2018.08.19 at 11h 06m 28s.xml">
+      <configuration name="Unittests in test_PostQuestion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PostQuestion_py - 2018.08.19 at 11h 08m 55s.xml">
+      <configuration name="Unittests in test_PostQuestion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PostQuestion_py - 2018.08.19 at 11h 18m 48s.xml">
+      <configuration name="Unittests in test_PostQuestion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PostQuestion_py - 2018.08.19 at 11h 23m 31s.xml">
+      <configuration name="Unittests in test_PostQuestion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PostQuestion_py - 2018.08.19 at 11h 27m 06s.xml">
+      <configuration name="Unittests in test_PostQuestion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_getAllQtns_py - 2018.08.18 at 13h 51m 08s.xml">
+      <configuration name="Unittests in test_getAllQtns.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_getAllQtns_py - 2018.08.18 at 13h 51m 26s.xml">
+      <configuration name="Unittests in test_getAllQtns.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_getAllQtns_py - 2018.08.18 at 13h 52m 01s.xml">
+      <configuration name="Unittests in test_getAllQtns.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_getAllQtns_py - 2018.08.18 at 13h 52m 07s.xml">
+      <configuration name="Unittests in test_getAllQtns.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2908012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RestFul_API/instance/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/instance/config.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app_PostQtn/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/test_2.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/tests/test_add_ans.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/tests/test_add_ans.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/Pytest_PostAns.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/Pytest_PostAns.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/tests/.pytest_cache/v/cache/lastfailed" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/tests/test_add_ans.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/test_2.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/test_app.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app_PostQtn/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/run.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/RestFul_API.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/instance/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/test_getAllQtns.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/test_Get_A_Qtn.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/test_PostAnswer.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/instance/config.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/app_PostQtn/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/RestFul_API/test_PostQuestion.py" />
+    <entry file="file://$PROJECT_DIR$/.coverall.yml" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/.coveragerc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/ans.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/ans.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="181" column="14" lean-forward="false" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/images/img2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/images/img.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/UserProfileSummary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/answerPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="74" lean-forward="false" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/postQuestion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
